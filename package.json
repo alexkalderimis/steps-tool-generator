@@ -10,5 +10,8 @@
     "yeoman-generator"
   ],
   "author": "Alex Kalderimis <alex@intermine.org>",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "yeoman-generator": "~0.17.7"
+  }
 }

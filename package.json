@@ -1,0 +1,14 @@
+{
+  "name": "intermine-tool-generator",
+  "version": "0.1.0",
+  "description": "Generate an intermine steps tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Alex Kalderimis <alex@intermine.org>",
+  "license": "BSD-2-Clause"
+}

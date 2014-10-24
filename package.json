@@ -1,5 +1,5 @@
 {
-  "name": "intermine-tool-generator",
+  "name": "generator-intermine-tool",
   "version": "0.1.0",
   "description": "Generate an intermine steps tool.",
   "main": "index.js",

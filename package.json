@@ -2,16 +2,36 @@
   "name": "generator-intermine-tool",
   "version": "0.1.0",
   "description": "Generate an intermine steps tool.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "alexkalderimis/generator-intermine-tool",
   "keywords": [
     "yeoman-generator"
   ],
-  "author": "Alex Kalderimis <alex@intermine.org>",
-  "license": "BSD-2-Clause",
+  "author": {
+    "name": "Alex Kalderimis",
+    "email": "alex.kalderimis@gmail.com",
+    "url": "https://github.com/alexkalderimis"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
   "dependencies": {
-    "yeoman-generator": "~0.17.7"
+    "yeoman-generator": "^0.17.0",
+    "chalk": "^0.5.0",
+    "yosay": "^0.3.0",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
   }
 }
